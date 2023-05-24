@@ -1,0 +1,26 @@
+{
+  "name": "masterlink",
+  "version": "1.0.0",
+  "description": "MasterLink - One link for all your links.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "keywords": [
+    "masterlink"
+  ],
+  "author": "dhaval_tarapara",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.1"
+  }
+}
